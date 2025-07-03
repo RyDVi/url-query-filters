@@ -1,0 +1,22 @@
+{
+  "name": "@url-query-filters/common",
+  "version": "0.0.2",
+  "author": "RyDVi",
+  "description": "Basic utilities for working with URL request parameters. url-query-filters is designed for convenient parsing, serialization, and management of filters in the URL query string.",
+  "homepage": "https://github.com/RyDVi/url-query-filters",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && vite build",
+    "types": "tsc -p tsconfig.json",
+    "types:watch": "tsc -p tsconfig.json --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

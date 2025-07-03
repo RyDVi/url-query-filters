@@ -1,0 +1,23 @@
+{
+  "name": "playground-react-router-v7",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@url-query-filters/react-router-v7": "workspace:*",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/react": "^18",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-tsconfig-paths": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}

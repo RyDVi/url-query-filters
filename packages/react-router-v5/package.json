@@ -1,0 +1,34 @@
+{
+  "name": "@url-query-filters/react-router-v5",
+  "version": "0.0.1",
+  "author": "RyDVi",
+  "description": "React Router v5 adapter for url-query-filters. url-query-filters is designed for convenient parsing, serialization, and management of filters in the URL query string.",
+  "homepage": "https://github.com/RyDVi/url-query-filters",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && vite build",
+    "types": "tsc -p tsconfig.json",
+    "types:watch": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "@url-query-filters/common": "workspace:*",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
